@@ -25,7 +25,7 @@ function Table({ expenses }) {
                     <tr key={index} className="border-b border-gray-100 hover:bg-gray-50">
                         <td className="px-3 py-3.5 text-gray-800 w-30">{expense.name}</td>
                         <td className="px-3 py-3.5 max-w-60">{expense.description}</td>
-                        <td className="px-3 py-3.5 text-green-900 font-semibold w-20">{expense.category}</td>
+                        <td className="px-3 py-3.5 text-green-900 font-semibold max-w-40">{expense.category}</td>
                         <td className="px-3 py-3.5 font-mono font-medium text-green-400 max-w-50">
                             KES {parseFloat(expense.price).toLocaleString("en-KE", { minimumFractionDigits: 2 })}
                         </td>

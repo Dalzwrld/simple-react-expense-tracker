@@ -1,3 +1,28 @@
 {
-    "expenses": []
+  "expenses": [
+    {
+      "name": "Smocha",
+      "description": "Friday's lunch",
+      "category": "Food",
+      "price": 90,
+      "date": "2026-05-08",
+      "id": 1
+    },
+    {
+      "name": "Atomic Habits",
+      "description": "Add to book collection",
+      "category": "Books",
+      "price": 600,
+      "date": "2026-08-16",
+      "id": 2
+    },
+    {
+      "name": "KPLC Tokens",
+      "description": "Pay electricity bill",
+      "category": "House bills",
+      "price": 1000,
+      "date": "2026-05-08",
+      "id": 3
+    }
+  ]
 }
